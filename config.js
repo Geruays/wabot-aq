@@ -15,7 +15,7 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'd90a9e986e18778b',
+  'https://api.xteam.xyz': '8b73d78bd4a692c6',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.xyz': 'apivinz',
   'https://pencarikode.xyz': 'pais',
@@ -27,8 +27,8 @@ global.APIKeys = { // APIKey Here
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'I hope you\'re fine'
-  var sticker_author = 'Nurutomo'
+  var sticker_name = 'Muka Lu Kek Kontol Maling Teross'
+  var sticker_author = 'Zeffa'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
